@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "~static/*": ["./static/*"]
+    },
+    "target": "ES6",
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true
+  }
+}
