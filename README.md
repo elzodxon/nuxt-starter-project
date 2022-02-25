@@ -1,4 +1,6 @@
-# lenta
+# Starter template 
+
+## Nuxt.js, Tailwind CSS, SASS with STRICT ESLINT and Prettier
 
 ## Build Setup
 
