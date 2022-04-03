@@ -4,7 +4,7 @@ export default {
     port: 3000, // default: 3005
     host: '0.0.0.0', // default: localhost
   },
-  ssr: true,
+  ssr: false,
   head: {
     title: 'Starter project',
     htmlAttrs: {
@@ -20,13 +20,13 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/style/style.scss'],
+  css: ['@/assets/style/style.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: false,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 
